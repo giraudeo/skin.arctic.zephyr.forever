@@ -445,7 +445,7 @@
                 <control type="button" id="9008" description="Weather Location">
                     <include>DefContextButton</include>
                     <align>left</align>
-                    <label>35500</label>
+                    <label>31284</label>
                     <label2>$INFO[Weather.Location]</label2>
                     <onclick>Weather.LocationNext</onclick>
                 </control>
@@ -469,6 +469,12 @@
                     <align>left</align>
                     <label>31143</label>
                     <onclick>RunScript(script.image.resource.select,property=weather.fanart&amp;type=resource.images.weatherfanart)</onclick>
+                </control>
+                <control type="button" id="9005" description="Configure Weather">       
+                    <include>DefContextButton</include>
+                    <align>left</align>
+                    <label>31284</label>
+                    <onclick>ActivateWindow(10018)</onclick>
                 </control>
             </control>
         </control>
