@@ -1,3 +1,9 @@
+[B]2.4.1[/B]
+fix duplicate window ID
+add missing strings/labels (english only)
+remove incorrect dependency
+change skin backup to script.xbmcbackup
+change skin name as original repository is archived
 
 [B]2.4.0[/B]
 Update for Kodi Nexus
