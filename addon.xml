@@ -2,7 +2,7 @@
 <addon
     id="skin.arctic.zephyr.forever"
     version="2.4.1"
-    name="Arctic: Zephyr"
+    name="Arctic: Zephyr Forever"
     provider-name="jurialmunkey,giraudeo">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
