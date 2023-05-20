@@ -445,7 +445,7 @@
                 <control type="button" id="9008" description="Weather Location">
                     <include>DefContextButton</include>
                     <align>left</align>
-                    <label>31284</label>
+                    <label>31283</label>
                     <label2>$INFO[Weather.Location]</label2>
                     <onclick>Weather.LocationNext</onclick>
                 </control>
