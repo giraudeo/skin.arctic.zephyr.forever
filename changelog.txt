@@ -2,8 +2,9 @@
 fix duplicate window ID
 add missing strings/labels (english only)
 remove incorrect dependency
-change skin backup to script.xbmcbackup
+change skin backup addon to script.xbmcbackup
 change skin name as original repository is archived
+convert language folder names
 
 [B]2.4.0[/B]
 Update for Kodi Nexus
