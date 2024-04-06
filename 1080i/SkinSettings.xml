@@ -480,14 +480,16 @@
                         <visible>ControlGroup(9100).HasFocus(9108)</visible>
                         <include>DefSettingsButton</include>
                         <label>$LOCALIZE[31002]</label>
-                        <onclick>RunScript(script.skin.helper.service,action=backup)</onclick>
+                        <onclick condition="!System.HasAddon(script.xbmcbackup)">InstallAddon(script.xbmcbackup)</onclick>
+                        <onclick condition="System.HasAddon(script.xbmcbackup)">Addon.OpenSettings(script.xbmcbackup)</onclick>
                     </control>
                     <control type="button" id="9282" description="Restore">
                         <width>1310</width>
                         <visible>ControlGroup(9100).HasFocus(9108)</visible>
                         <include>DefSettingsButton</include>
                         <label>$LOCALIZE[31003]</label>
-                        <onclick>RunScript(script.skin.helper.service,action=restore)</onclick>
+                        <onclick condition="!System.HasAddon(script.xbmcbackup)">InstallAddon(script.xbmcbackup)</onclick>
+                        <onclick condition="System.HasAddon(script.xbmcbackup)">Addon.OpenSettings(script.xbmcbackup)</onclick>
                     </control>
                     <control type="button" id="9283" description="Reset to defaults">
                         <width>1310</width>
