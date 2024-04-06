@@ -1,3 +1,6 @@
+[B]2.5.0[/B]
+Update for Kodi Omega
+
 [B]2.4.1[/B]
 fix duplicate window ID
 add missing strings/labels (english only)
